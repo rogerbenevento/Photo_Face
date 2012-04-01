@@ -1,6 +1,6 @@
 <?php 
 
-if (!function_exists('curl_init')) {
+if (!function_exists('curl_init')) 
   throw new Exception('Facebook needs the CURL PHP extension.');
 }
 if (!function_exists('json_decode')) {
